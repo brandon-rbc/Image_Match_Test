@@ -6,7 +6,6 @@
 from elasticsearch import Elasticsearch
 from image_match.elasticsearch_driver import SignatureES
 from image_match.goldberg import ImageSignature
-import glob, os
 import time
 
 # Basic 1to1 image comparison
